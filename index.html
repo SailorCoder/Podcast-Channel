@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles-desktop.css" />
+    <link rel="stylesheet" href="./styles-mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/iconfinder_podcast-new_23524.ico"
+    />
+    <title>Podcast Channel</title>
+  </head>
+  <body>
+    <div class="contenedor-general">
+      <!-- 1. HEADER -->
+      <div class="header">
+        <div class="header-logo">
+          <img
+            class="header-imagen-logo"
+            src="./styles/logo.svg"
+            alt="logo"
+            width="10%"
+          />
+        </div>
+        <!-- MENU ESCRITORIO -->
+        <div class="header-navegacion">
+          <ul class="header-navegacion-ul ibm-plex-mono fs-16">
+            <li><a href="#episodios">EPISODIOS</a></li>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#entrevistas">ENTREVISTAS</a></li>
+            <li><a href="#topicos">TÓPICOS</a></li>
+          </ul>
+        </div>
+        <!-- MENU MOBILE -->
+        <div class="contenedor-menu-mobile">
+          <input id="burguer-ch" type="checkbox" />
+          <label class="burguer-container" for="burguer-ch">
+            <div class="linea linea1"></div>
+            <div class="linea linea2"></div>
+            <div class="linea linea3"></div>
+          </label>
+          <div class="menu-mobile-texto">
+            <div>EPISODIOS</div>
+            <div>NOSOTROS</div>
+            <div>ENTREVISTAS</div>
+            <div>TOPICOS</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. TITULO -->
+      <div class="titulo">
+        <h1 class="titulo-principal ibm-plex-sans fs-64">
+          Hello <span class="tachado">world</span
+          ><span class="pale-blue-dot"> pale blue dot</span
+          ><span class="punto-azul">.</span>
+        </h1>
+        <p class="titulo-descripcion ibm-plex-mono fs-16">
+          El portal de podcasts que explora el mundo de la programación y la
+          tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <p class="titulo-descripcion-mobile ibm-plex-mono fs-16">
+          Un podcast que explora el mundo de la programación. Nuevos episodios,
+          todos los jueves cada 15 días.
+        </p>
+        <button class="btn-1">CONOCÉ MÁS</button>
+      </div>
+      <!-- 3. EPISODIOS -->
+      <div class="episodios" id="episodios">
+        <div class="episodios-titulo ibm-plex-sans fs-48">Episodios</div>
+        <div>
+          <div class="episodios-links-spotyfy-container">
+            <div>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/1B8g8K40hS6I56m0i6pq8i"
+                width="100%"
+                height="232"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+            <div>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/6DxogKhDpAHzslO8alwzSV"
+                width="100%"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+          <div class="episodios-links-spotyfy-container">
+            <div>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/6of2VkKPb9BRfC6PTIOKLi"
+                width="100%"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+            <div>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/1YKFPmPiyfCeyKgfLq8IN2"
+                width="100%"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 4. HISTORIA -->
+      <div class="historia" id="nosotros">
+        <div>
+          <img src="./images/phone.png" alt="image-phone" width="40%" />
+        </div>
+        <div class="historia-texto">
+          <div class="ibm-plex-sans fs-48 margin-bottom-20px">
+            De dónde venimos
+          </div>
+          <div class="ibm-plex-mono fs-16">
+            Our posturings, our imagined self-importance,<br />the delusion that
+            we have some privileged<br />position in the Universe, are
+            challenged by this<br />point of pale light.<br /><br />
+            Our planet is a lonely speck in the great<br />enveloping cosmic
+            dark. In our obscurity, in all<br />this vastness, there is no hint
+            that help will<br />come from elsewhere to save us from ourselves.
+          </div>
+        </div>
+      </div>
+      <!-- 5. IMAGENES -->
+      <div class="imagenes" id="entrevistas">
+        <div class="imagenes-titulo ibm-plex-sans fs-48">
+          Invitadas/os estelares
+        </div>
+        <div class="imagenes-fotos">
+          <div class="flex">
+            <img
+              src="./images/grace-hopper.png"
+              alt="image-women1"
+              width="20%"
+            />
+            <img
+              src="./images/Katie-Bouman.png"
+              alt="image-women2"
+              width="20%"
+            />
+            <img
+              src="./images/Margaret_Hamilton.png"
+              alt="image-women3"
+              width="20%"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="./images/An E.R.A.Univac 1103 computer in the 1950s.png"
+              alt="image-women4"
+              width="20%"
+            />
+            <img
+              src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+              alt="image-women5"
+              width="20%"
+            />
+            <img src="./images/susan-kare.png" alt="image-women6" width="20%" />
+          </div>
+        </div>
+      </div>
+      <!-- 6. ICONOS -->
+      <div class="iconos" id="topicos">
+        <div class="iconos-titulo-container">
+          <div class="iconos-titulo ibm-plex-sans fs-48">
+            Algunos de nuestros temas
+          </div>
+        </div>
+        <div class="iconos-texto-container">
+          <div>
+            <div>
+              <img src="./styles/icon1.svg" alt="trabajo-remoto" width="60%" />
+            </div>
+            <div>Trabajo remoto</div>
+          </div>
+          <div>
+            <div>
+              <img
+                src="./styles/icon2.svg"
+                alt="repensando-la-programación"
+                width="50%"
+              />
+            </div>
+            <div class="Repensando-la-programación">
+              Repensando la programación
+            </div>
+          </div>
+          <div>
+            <div>
+              <img
+                src="./styles/icon3.svg"
+                alt="bases-del-código"
+                width="50%"
+              />
+            </div>
+            <div>Bases del código</div>
+          </div>
+          <div>
+            <div>
+              <img
+                src="./styles/icon4.svg"
+                alt="seguridad-informática"
+                width="50%"
+              />
+            </div>
+            <div>Seguridad informática</div>
+          </div>
+        </div>
+      </div>
+      <!-- 7. PRE-FOOTER -->
+      <div class="pre-footer">
+        <div class="pre-footer-texto">¿Querés las últimas novedades?</div>
+        <button class="btn-2">ESCUCHÁ LOS EPISODIOS</button>
+      </div>
+      <!-- 8. FOOTER -->
+      <div class="footer">
+        <div class="footer-texto ibm-plex-mono">
+          © 2019— Hello blue pale dot
+        </div>
+        <div class="footer-iconos">
+          <a href="https://www.spotify.com/ar/" target="about_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="about_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/home" target="about_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="about_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://web.telegram.org/#/login" target="about_blank"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
